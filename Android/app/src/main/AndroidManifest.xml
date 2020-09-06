@@ -19,7 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".StickerPackListActivity" />
+
         <activity
             android:name=".StickerPackDetailsActivity"
             android:parentActivityName=".StickerPackListActivity"
@@ -28,6 +30,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.samplestickerapp.StickerPackListActivity" />
         </activity>
+
         <activity
             android:name=".StickerPackInfoActivity"
             android:label="@string/title_activity_sticker_pack_info"
@@ -44,5 +47,7 @@
             android:enabled="true"
             android:exported="true"
             android:readPermission="com.whatsapp.sticker.READ" />
+
+
     </application>
 </manifest>
